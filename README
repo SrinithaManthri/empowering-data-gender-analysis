@@ -1,53 +1,46 @@
-# Empowering Data Project Starter Code
+# Empowering Data: Global Development & Gender Analysis 🌍
 
-This is a place for you to start building your Empowering Data Project!
-
-### Project Requirements
-Your project should:
-- Include a Setting for the story
-- Include the Context of the story
-- Include Characters 
-- Include a visual graph
-- Include a research question which can help solve the problem the people in your story face
-
-
-
-### Extensions
-You can extend your project further by:
-- Extension #1:  Plot multiple data sets in the same scatterplot. Guidance here.
-  - Create subsets of data
-  - Repeat scatter method calls before plt.show()
-- Extension #2: Color data by numerical value of third column
-  - Include colors= parameter in scatter call
-- Extension #3: Color data marker by category 
-  - Make a list of tuples with data point and color
-- Loop over the list to plot point individually with scatter()
-
-
-###  Attributions
-*If you used any code, stories, or poems from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own. 
-- Add here if applicable
+An interactive Python data science project analyzing global development metrics from the `LivWell` dataset to explore women's educational attainment and civic engagement across **Zimbabwe** and **Senegal**.
 
 ---
 
-## File Overview
+## 📌 Project Overview
+This project examines how access to secondary and higher education impacts women's daily engagement with current affairs and news media. By analyzing country-level development indicators, the project highlights how systemic educational access influences women's literacy and civic awareness.
 
-### ← README.md
+---
 
-README.md file give you more documentation and information about a program. They are super helpful for describing what a program should do, any issues you've encountered, changes you want to make, and more. 
+## ❓ Research Question
+> *"Why do women in Zimbabwe have higher newspaper readership than women in Senegal? Is this associated with higher levels of secondary/higher education, differences in access to media, or other country-specific factors?"*
 
-### ← main.py
-This is where you will write your main program.
+---
 
-### ← GWCutilities.py
-A collection of utility functions for formatting output to the console in this project.
+## 📊 Key Findings & Insights
+- **Target Countries:** Zimbabwe vs. Senegal
+- **Core Variables Analyzed:** 
+  - Percentage of women with secondary or higher education.
+  - Percentage of women who read a newspaper at least once a week.
+- **Key Trend:** **Zimbabwe** consistently demonstrates significantly higher percentages in both educational attainment (~60%–80%) and newspaper readership compared to **Senegal** (~10%–25%).
+- **Takeaway:** Systems supporting girls' secondary education directly correlate with increased media literacy, news consumption, and civic participation.
 
-### ← livwell135.csv
-A subset of 135 columns from the LivWell dataset which contains data on the well-being of women in 52 countries.
- 
- https://www.kaggle.com/datasets/konradb/wellbeing-of-women-in-52-countries
+---
 
- ### ← livwell175.csv
-A subset of 175 columns from the LivWell dataset which contains data on the well-being of women in 52 countries. 
-This data set has information in it which may be upsetting or difficult to understand for some people.
-There is a description of what additional information is in this file in Part 3 Step 1.
+## 🛠️ Built With
+- **Python**
+- **Pandas:** Data loading, manipulation, and filtering of the `LivWell` dataset.
+- **Matplotlib:** Data visualization and scatter plot generation.
+- **GWCutilities:** Console formatting and output management.
+
+---
+
+## 📁 File Structure
+- `main.py`: Primary script handling data processing, terminal storytelling, and visualization.
+- `livwell135.csv`: Subset of 135 development indicators across 52 countries used in the analysis.
+- `livwell175.csv`: Extended dataset featuring 175 well-being indicators for expanded research.
+- `GWCutilities.py`: Helper module for formatted console outputs.
+- `README.md`: Project documentation and analysis summary.
+- `VENV.md`: Environment configuration guide.
+
+---
+
+## 👤 Author
+Created as part of the **Girls Who Code** program by Srinitha Manthri.
